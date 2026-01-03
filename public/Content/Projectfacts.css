@@ -66,6 +66,7 @@ button.btn:hover {
   color: #fff; /* Makes the text white */
 }
 
+
 /* Style for the image */
 .project-image {
   width: 50%; /* Image takes up half the width */
@@ -80,6 +81,21 @@ button.btn:hover {
   width: 50%; /* Text takes up the other half of the container */
   text-align: left; /* Align text to the left */
   padding: 20px; /* Padding for space inside the text box */
+}
+
+/* Make Tableau embed behave like an image */
+.tableau-wrapper {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden; /* ensures rounded corners apply */
+}
+
+.tableau-wrapper object,
+.tableau-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 
 /* Project Title */

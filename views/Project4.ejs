@@ -63,20 +63,90 @@
 
 <!--Image and Text-->
 <div class="project-container">
-  <img src="/Content/Project4 Upd.png" alt="Project 1" class="project-image">
-  <div class="project-description">
-    <h2>Project 4: Thematic map on Canada's Health Records</h2>
-    <hr class="divider">
-    <h3>Mortality rates per Municipality</h3>
-    <p>The map provides a detailed visual representation of male life expectancy across Whitby, Ajax, and Oshawa, offering an insightful analysis of the data. Each point on the map is labeled with the corresponding street name, the time period during which the data was collected, and the specific life expectancy value for that location.</p>
 
-    <p>To enhance clarity, the points are sized proportionally to the life expectancy values, allowing for a quick and intuitive understanding of the distribution. Larger points indicate higher life expectancy, while smaller points highlight areas with lower values. </p>
-        
-    <p>From this visualization, distinct trends emerge: Oshawa consistently shows significantly lower life expectancy values compared to Ajax, which demonstrates relatively higher rates. This stark contrast emphasizes the disparities between these regions and invites further exploration into the underlying factors contributing to these differences.
-      The map gives a physical demonstration of the life expectancy of each male in Whitby, Ajax and Oshawa. Each point being labelled with the street name the timeline in which this data was collected and the life expectancy. Each point being sized differently based on the values, and from this we can see that Oshawa has alot lower numbers compared to Ajax which has relatively higher rates.
+  <!-- Tableau Embed Styled as Image -->
+  <div class="project-image tableau-wrapper">
+    <div class='tableauPlaceholder' id='viz1767471078973' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Dashboard 1'
+               src='https://public.tableau.com/static/images/Co/CovidInfectionRate_17674708975100/Dashboard1/1_rss.png'
+               style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='CovidInfectionRate_17674708975100/Dashboard1' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image'
+               value='https://public.tableau.com/static/images/Co/CovidInfectionRate_17674708975100/Dashboard1/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+  </div>
+
+  <!-- Text Section -->
+  <div class="project-description">
+    <h2>Project 4: Global COVID 19 Infection & Mortality Dashboard</h2>
+    <hr class="divider">
+    <p>
+      This interactive dashboard presents a comprehensive analysis of the global impact of COVID‑19 from December 2019 to August 2021. It visualizes key metrics including total confirmed cases, death counts, and infection rates across continents and major countries such as Canada, India, the United States, Mexico, and the United Kingdom.
+      The dashboard features: <br>
+      - A bar chart comparing total death counts by continent, highlighting regional disparities. <br>
+      - A line chart tracking average infection rates over time, revealing country-specific trends and surges.<br>
+      - A geographic map illustrating the percentage of population infected per country, with forecast indicators for select nations.<br>
+      - A summary panel displaying global totals and the overall death-to-case ratio.<br><br>
+      This dashboard enables users to explore temporal and geographic patterns in the spread of COVID‑19, supporting data-driven understanding of the pandemic’s progression and impact.
+      
+
     </p>
-  </div>  
+  </div>
+
 </div>
+
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1767471078973');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  if (divElement.offsetWidth > 800) {
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  } else if (divElement.offsetWidth > 500) {
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  } else {
+    vizElement.style.width = '100%';
+    vizElement.style.height = '1277px';
+  }
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1767471078973');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  if (divElement.offsetWidth > 800) {
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  } else if (divElement.offsetWidth > 500) {
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  } else {
+    vizElement.style.width = '100%';
+    vizElement.style.height = '1277px';
+  }
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
 
 
 
